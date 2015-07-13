@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{780F136A-D83F-6325-96D9-2AB507E28714}</ProjectGuid>
+	<ProjectGuid>{87B66EF9-EA67-73BA-CAF1-031D3850CB45}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,13 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Example\DemoScene\Teleport.cs" />
-     <Compile Include="Assets\Example\Legacy\DemoScene\TeleportLegacyUI.cs" />
-     <Compile Include="Assets\Example\Legacy\Scripts\CardboardAndroidDevice.cs" />
-     <Compile Include="Assets\Example\Legacy\Scripts\CardboardOnGUI.cs" />
-     <Compile Include="Assets\Example\Legacy\Scripts\CardboardOnGUIMouse.cs" />
-     <Compile Include="Assets\Example\Legacy\Scripts\CardboardOnGUIWindow.cs" />
-     <Compile Include="Assets\Example\Legacy\Scripts\SkyboxMesh.cs" />
-     <Compile Include="Assets\Example\Legacy\Scripts\StereoLensFlare.cs" />
      <Compile Include="Assets\Example\Scripts\Cardboard.cs" />
      <Compile Include="Assets\Example\Scripts\CardboardEye.cs" />
      <Compile Include="Assets\Example\Scripts\CardboardHead.cs" />
@@ -69,10 +62,19 @@
      <Compile Include="Assets\Example\Scripts\VRDevices\UnityEditorDevice.cs" />
      <Compile Include="Assets\Example\Scripts\VRDevices\VRDevice.cs" />
      <Compile Include="Assets\Example\Scripts\VRDevices\iOSVRDevice.cs" />
+     <Compile Include="Assets\Scenes\Legacy\DemoScene\TeleportLegacyUI.cs" />
+     <Compile Include="Assets\Scenes\Legacy\Scripts\CardboardAndroidDevice.cs" />
+     <Compile Include="Assets\Scenes\Legacy\Scripts\CardboardOnGUI.cs" />
+     <Compile Include="Assets\Scenes\Legacy\Scripts\CardboardOnGUIMouse.cs" />
+     <Compile Include="Assets\Scenes\Legacy\Scripts\CardboardOnGUIWindow.cs" />
+     <Compile Include="Assets\Scenes\Legacy\Scripts\SkyboxMesh.cs" />
+     <Compile Include="Assets\Scenes\Legacy\Scripts\StereoLensFlare.cs" />
      <Compile Include="Assets\Scripts\BoomScript.cs" />
+     <Compile Include="Assets\Scripts\groundScript.cs" />
+     <Compile Include="Assets\Scripts\wallScript.cs" />
      <Compile Include="Assets\Scripts\whiteCubeScript.cs" />
-     <None Include="Assets\Example\Legacy\Resources\SkyboxMesh.shader" />
-     <None Include="Assets\Example\Legacy\Resources\GUIScreen.shader" />
+     <None Include="Assets\Scenes\Legacy\Resources\SkyboxMesh.shader" />
+     <None Include="Assets\Scenes\Legacy\Resources\GUIScreen.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Plugins\Legacy\Android\AndroidManifest.xml" />
      <None Include="Assets\Example\Resources\RadialUndistortionEffect.shader" />
